@@ -59,5 +59,5 @@ deploy:
         username: $USERNAME
         password: $PASSWORD
         repository: rksarvankar/ma_repo_2
-        registry: https://registry.hub.docker.com
+        registry: https://hub.docker.com/repositories
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
