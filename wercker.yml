@@ -58,6 +58,6 @@ deploy:
         cwd: $WERCKER_OUTPUT_DIR/app
         username: $USERNAME
         password: $PASSWORD
-        repository: rksarvankar/ma_repo_2
+        repository: dotnetcoreservices/teamservice
         registry: https://hub.docker.com/repositories
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
